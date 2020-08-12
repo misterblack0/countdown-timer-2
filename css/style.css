@@ -202,6 +202,10 @@ input {
   letter-spacing: 0.1rem;
 }
 
+.btn:hover {
+  cursor: pointer;
+}
+
 .btn2 {
   width: 3rem;
   height: 3rem;
@@ -210,4 +214,39 @@ input {
   margin-left: 1.5rem;
   background-color: rgba(255, 255, 255, 0.418);
   border-radius: 50%;
+}
+
+.btn3 {
+  border: none;
+  outline: none;
+}
+
+.btn2:hover {
+  cursor: pointer;
+}
+
+.icon,
+.icon2 {
+  fill: #5b6c7c;
+}
+
+.icon2 {
+  height: 1.1rem;
+  width: 1.1rem;
+}
+
+.icon {
+height: 2rem;
+width: 2rem;
+}
+
+.social-icons {
+  height: 10rem;
+  width: 3rem;
+  position: absolute;
+  top: 38%;
+  left: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
